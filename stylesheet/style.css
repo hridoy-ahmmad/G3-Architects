@@ -40,12 +40,53 @@ li{
 .justify-content-between{
     justify-content: space-between;
 }
+.center{
+    text-align: center;
+}
+.btn{
+    background-color: #FF900E;
+    padding: 20px 24px;
+    font-size: 1.25rem;
+    font-weight: 600;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    margin-top: 32px ;
+    margin-bottom: 50px;
+
+}
 
 /* header */
+header{
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
 nav{
-    padding: 50px 0;
+    padding-bottom: 100px;
+    align-items: center;
+}
+.logo{
+    font-size: 3rem;
+    font-weight: bold;
 }
 nav li a{
-    margin-right: 30px;
+    margin-right: 60px;
     color: rgba(66, 66, 66, 1);
+}
+
+/* banner */
+.banner-content{
+    max-width: 862px;
+    margin: 0px auto;
+}
+.banner-title{
+    font-size: 4rem;
+}
+.banner-description{
+    font-size: 1rem;
+    line-height: 26px;
+    padding-top: 20px;
+}
+.banner-img{
+    width: 100%;
 }
