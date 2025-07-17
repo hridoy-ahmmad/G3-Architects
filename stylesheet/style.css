@@ -85,6 +85,30 @@ nav li a{
 .banner-img{
     width: 100%;
 }
+/* fearute */
+.feature{
+    margin-top: 100px;
+    align-items: center;
+}
+.feature-img-collumn{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+.feature-content-column{
+    width: 540px;
+    margin: 0 auto;
+}
+.feature-content-column .feature-title{
+   font-size: 2.8rem;
+   color: ;
+}
+.feature-content-column .title-feature-gray{
+   font-weight: 400;
+}
+.feature-content-column .title-feature-tomato{
+   color:#FF900E;
+}
 
 /* responsive */
 @media screen and (max-width:576px){
