@@ -19,7 +19,7 @@
     color: rgba(66, 66, 66, 1);
 }
 .dark-3{
-    color: ;
+    color: rgba(114, 114, 114, 1);
 }
 .primary-bg{
     background-color: #FFF4E7;
@@ -108,7 +108,7 @@ nav li a{
 }
 .feature-content-column .feature-title{
    font-size: 2.8rem;
-   color: ;
+   
 }
 .feature-content-column .title-feature-gray{
    font-weight: 400;
@@ -179,8 +179,47 @@ nav li a{
 .badge-feature p{
     color: white;
 }
+.obtain-row{
+   justify-content: space-evenly;
+    gap: 124px;
 
-
+}
+.Obtain-section h5{
+    font-size: 2.8rem;
+    font-weight: bold;
+    margin: 0;
+}
+.Obtain-section p{
+    font-size: 1.2rem;
+    font-weight: normal;
+    color: rgba(114, 114, 114, 1);
+}
+.Obtain-section-content{
+    width: 50%;
+}
+.obtain-row{
+    margin: 0 auto;
+    text-align: center;
+    color: rgba(114, 114, 114, 1);
+    margin-top: 50px;
+    margin-bottom: 180px;
+}
+.obtain-block{
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    padding: 45px 35px;
+      
+}
+.obtain-block h5{
+    margin: 0;
+    font-size: 2.8rem;
+    color: rgba(19, 19, 19, 1);
+}
+.obtain-block p{
+    margin: 0;
+    font-size: 1.1rem;
+    color:rgba(114, 114, 114, 1) ;
+}
 /* responsive */
 @media screen and (max-width:576px){
     nav{
@@ -236,6 +275,23 @@ nav li a{
         padding: 20px 30px;
         width: 250px ;
     }
+     .Obtain-section{
+        margin-top: 100px;
+     }
+   .Obtain-section-content{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+} 
+.obtain-row{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    justify-content: space-evenly;
+}
+.obtain-block{
+    padding: 10px 20px;
+}
 }
 
 @media screen and (min-width:577px)  and (max-width:992px){
@@ -297,9 +353,25 @@ nav li a{
         align-items: center;
        
     }
+    .Obtain-section{
+        margin-top: 100px;
+     }
+   .Obtain-section-content{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+} 
+.obtain-row{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    justify-content: space-evenly;
 }
-@media screen and  (min-width:993px) and (max-width:1200px
-) {
+.obtain-block{
+    padding: 10px 20px;
+}
+}
+@media screen and  (min-width:993px) and (max-width:1200px) {
     nav .logo{
         font-size: 2rem;
         padding-left: 20px;
@@ -342,6 +414,15 @@ nav li a{
         margin-left: -50px;
        
     }
+    .obtain-block{
+        padding: 30px 40px;
+        justify-content: space-evenly;
+    }
     
 }
+@media screen and  (min-width:1201px) and (max-width:1400px){
+        .second-feature-col2 img{
+        width: 100%;
+    }
 
+}
