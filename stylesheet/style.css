@@ -8,10 +8,6 @@
 }
 
 /* shared style */
-*{
-    padding: 0;
-    margin: 0;
-}
  .mx-width{
     max-width: 1440px;
     margin: 0 auto;
@@ -59,10 +55,9 @@ li{
 /* header */
 header{
     padding-top: 30px;
-    padding-bottom: 20px;
+
 }
 nav{
-    padding-bottom: 100px;
     align-items: center;
 }
 .logo{
@@ -76,7 +71,7 @@ nav li a{
 
 /* banner */
 .banner-content{
-    max-width: 862px;
+    max-width: 861px;
     margin: 0px auto;
 }
 .banner-title{
@@ -90,3 +85,47 @@ nav li a{
 .banner-img{
     width: 100%;
 }
+
+/* responsive */
+@media screen and (max-width:576px){
+    nav{
+        flex-direction: column;
+      
+    }
+    nav ul{
+        flex-direction: column;
+    }
+    nav ul li{
+       margin-bottom: 20px;
+    }
+}
+@media screen and (min-width:577px)  and (max-width:992px){
+    nav .logo{
+        font-size: 2rem;
+        padding-left: 20px;
+    }
+    nav li a{
+        margin-right: 30px;
+    }
+    .banner-description{
+       margin-top: -50px;
+       padding: 0 50px;
+    }
+    
+}
+@media screen and  (min-width:992px) and (max-width:1024px
+) {
+    nav .logo{
+        font-size: 2rem;
+        padding-left: 20px;
+    }
+    nav li a{
+        margin-right: 30px;
+    }
+    .banner-description{
+       margin-top: -50px;
+       padding: 0 50px;
+    }
+    
+}
+
