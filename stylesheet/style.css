@@ -49,9 +49,15 @@ li{
     color: white;
     margin-top: 32px ;
     margin-bottom: 50px;
+    cursor: pointer;
 
 }
-
+.primary-paragraph{
+    color:rgba(114, 114, 114, 1) ;
+    font-size: 1rem;
+    line-height: 26px;
+    font-weight: normal;
+}
 /* header */
 header{
     padding-top: 30px;
@@ -88,6 +94,7 @@ nav li a{
 /* fearute */
 .feature{
     margin-top: 100px;
+    margin-bottom: 100px;
     align-items: center;
 }
 .feature-img-collumn{
@@ -122,6 +129,26 @@ nav li a{
     nav ul li{
        margin-bottom: 20px;
     }
+    .feature{
+        flex-direction: column;
+    }
+    .feature-img-collumn{
+        gap:10px;
+    }
+    .feature-img-collumn img{
+        width: 100%;
+    }
+     .feature-title{
+        margin-bottom: 0;
+    }
+    .feature-content-column{
+        text-align: center;
+        width: 100%;
+    }
+    .btn{
+        padding: 16px 20px;
+        font-size: 16px;
+    }
 }
 @media screen and (min-width:577px)  and (max-width:992px){
     nav .logo{
@@ -135,9 +162,29 @@ nav li a{
        margin-top: -50px;
        padding: 0 50px;
     }
-    
+    .feature{
+        margin-top: 50px;
+    }
+    .feature-img-collumn{
+        width: 50%;
+    }
+    .feature-img-collumn img{
+        width: 100%;
+    }
+    .feature-content-column{
+        width: 50%;
+        margin-left: 20px;
+    }
+    .feature-title{
+        margin-bottom: 0;
+    }
+    .btn{
+        padding: 16px 20px;
+        font-size: 16px;
+        
+    }   
 }
-@media screen and  (min-width:992px) and (max-width:1024px
+@media screen and  (min-width:992px) and (max-width:1200px
 ) {
     nav .logo{
         font-size: 2rem;
@@ -149,6 +196,16 @@ nav li a{
     .banner-description{
        margin-top: -50px;
        padding: 0 50px;
+    }
+    .feature-img-collumn{
+        width: 50%;
+    }
+    .feature-img-collumn img{
+        width: 100%;
+    }
+     .feature-content-column{
+        width: 50%;
+        margin-left: 20px;
     }
     
 }
